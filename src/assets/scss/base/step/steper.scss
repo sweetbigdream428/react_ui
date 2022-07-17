@@ -1,0 +1,91 @@
+.bs-stepper-content {
+  padding: 0px;
+}
+.bs-stepper-header {
+    height: 98px;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+  }
+  .step-crossed-icon {
+    display: none;
+  }
+  .bs-stepper-header .step.crossed .step-trigger .bs-stepper-box .step-crossed-icon{
+    display: inline;
+  }
+  .bs-stepper-header .step.crossed .step-trigger .bs-stepper-box .step-crossed-num{
+    display: none;
+  }
+  .bs-stepper-header .step .bs-stepper-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 9px;
+    border-radius: 50%;
+    border: 0.624121px solid #DCDCDC;
+    color: #DCDCDC;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.187236px;
+    color: #DCDCDC;
+  }
+  .bs-stepper-header .step .bs-stepper-title {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #DCDCDC;
+  }
+  
+  .bs-stepper-header .step.active .bs-stepper-title, .bs-stepper-header .step.crossed .bs-stepper-title {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #302D2D;
+  }
+  
+  .bs-stepper-header .step.active .bs-stepper-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.487594px solid #302D2D;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    color: #302D2D;
+  }
+  
+  .bs-stepper-header .step.crossed .bs-stepper-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.487594px solid #302D2D;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    color: #302D2D;
+    padding: 5px 8px;
+  }
+  
+  .bs-stepper-header .step.crossed .step-trigger:disabled {
+    opacity: 1;
+  }
+  .bs-stepper .line, .bs-stepper-line {
+    flex: 0 0 10px;
+    margin: 0;
+  }
+  .bs-stepper .step-trigger {
+    padding: 10px;
+  }
+  
+  .bs-stepper-header-bottom {
+    width: 100%;
+    height: 2px;
+    background-color: #D8D8D8;;
+  }

@@ -1,0 +1,314 @@
+// Information
+#informationAddr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    max-width: 800px;
+  }
+  
+  .info-content-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    letter-spacing: 0.41px;
+    color: #302D2D;
+  }
+  .info-form-icon {
+    background: rgb(74 117 88 / 10%);
+    border-radius: 8px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-form-icon-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+    color: #302D2D;
+    margin-left: 10px;
+  }
+  .info-form-icons {
+    display: flex;
+    align-items: center;
+  }
+  .info-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    height: 80px;
+  }
+  .info-form-val {
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  .info-form-val .info-form-val-text {
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+    color: #302D2D; 
+  }
+  .info-form-val select:focus-visible {
+    outline: none;
+  }
+  .info-form-val .react-numeric-input input{
+    border: none;
+  }
+  .info-form-val .react-numeric-input input:focus-visible, .info-form-val .react-numeric-input input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .info-form-val .react-numeric-input b {
+    border-radius: 5.33333px;
+    width: 28px;
+    height: 28px;
+    background: rgb(74 117 88 / 10%) !important;
+    border: none;
+    border-style: none !important;
+    border-color: rgba(0, 0, 0, 0.0) !important;
+  }
+  .info-form-val .react-numeric-input b i {
+    background: #4A7558 !important;
+  }
+  .form-information {
+    width: 435px;
+  }
+  
+  // Type
+  .address-modal {
+    width: 435px !important;
+    height: 242px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(13, 109, 75, 0.14);
+    border-radius: 0px;
+    position: absolute;
+  }
+  .address-modal ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .address-modal ul li.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.41px;
+    color: #212525;
+  }
+  .address-modal ul li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.41px;
+    color: rgba(0, 0, 0, 0.87);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .address-modal ul li.active {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.41px;
+    color: #4A7558;
+    background: hsl(140, 23%, 37%, 0.05);
+  }
+  .address-modal ul li .active-icon {
+    display: none;
+  }
+  .address-modal ul li.active .active-icon {
+    display: inline;
+  }
+  .address-modal ul li.value:hover {
+    color: #4A7558;
+    background: hsl(140, 23%, 37%, 0.05);
+  }
+  .address-modal ul li.value:hover .active-icon {
+    display: inline;
+  }
+  
+  // Year Built Modal
+  .year-built-modal {
+    width: 435px !important;
+    height: 192px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(13, 109, 75, 0.14);
+    border-radius: 0px;
+    position: absolute;
+    z-index: 3;
+  }
+  
+  .year-built-modal .year-built-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.41px;
+    color: #212525;
+  }
+  
+  .year-built-modal .year-built-input {
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    height: 44px;
+  }
+  
+  .year-built-modal .year-built-input:focus {
+    box-shadow: none;
+    border-color: #DFDFDF;
+  }
+  
+  .year-built-modal .year-built-input::-webkit-outer-spin-button,
+  .year-built-modal .year-built-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  .year-built-modal .year-built-input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .year-built-cancel {
+    background: #FFFFFF !important;
+    border: 1px solid #DFDFDF !important;
+    border-radius: 8px !important;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center;
+    letter-spacing: 0.41px !important;
+    color: #4D5151 !important;
+    padding: 16px 46px !important;
+  }
+  
+  .year-built-cancel:focus, .year-built-save:focus {
+    box-shadow: none !important;
+  }
+  .year-built-cancel:focus-visible, .year-built-save:focus-visible {
+    outline: none;
+  }
+  
+  .year-built-save {
+    background: rgba(120, 87, 52, 0.8) !important;
+    border-radius: 8px !important;
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    line-height: 21px !important;
+    letter-spacing: 0.41px !important;
+    color: #FFFFFF !important;
+    padding: 14px 52px !important;
+  }
+  
+  .year-built-save:hover {
+    background: rgba(120, 87, 52) !important;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .bs-stepper-header .line, .bs-stepper-header .step {
+      display: none;
+    }
+  }
+  
+  .year-built-input.squareft-input {
+    // background-image: url("");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-right: 40px;
+  }
+  
+  // renovateAddr Page Style Begin
+  #renovate form {
+    display: flex;
+    justify-content: center;
+  }
+  #renovateAddr {
+    margin-top: 135px;
+    max-width: 1230px;
+  }
+  .renovate-col {
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .renovate-col .renovate-form-icons:last-child {
+    margin-top: 16px;
+  }
+  
+  .renovate-form-icon-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.41px;
+    color: #212525;
+  }
+  .renovate-form-checkbox {
+    width: 28px !important;
+    height: 28px !important;
+    border: 2px solid #B1B1B1 !important;
+    border-radius: 6px !important;
+  }
+  
+  .renovate-form-checkbox:checked {
+    background-color: rgba(120, 87, 52, 0.8) !important;
+  }
+  
+  .renovate-form-icon-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.41px;
+    color: #969999;
+  }
+  
+  .renovate-form-icon-price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.41px;
+    color: #212525;
+  }

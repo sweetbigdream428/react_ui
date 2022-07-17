@@ -1,0 +1,101 @@
+.address-logo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  cursor: pointer;
+}
+.address-logo-title {
+  margin-left: 5px;
+  color: #93795D;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.paganation-position {
+  position: absolute;
+  top: 830px;
+  left: 0px;
+  width: 100%;
+  margin-top: 25px;
+  padding-left: 129px !important;
+  padding-right: 129px !important;
+}
+
+
+.paganation-position button {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#addressAddr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 120px);
+}
+
+.what-your-addr {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: #302D2D;
+  font-family: 'Open Sans';
+}
+.house-addr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #DCDCDC;
+  text-transform: uppercase;
+}
+.house-addr-input {
+  height: 38px;
+  border: 0.75614px solid #DCDCDC !important;
+  font-weight: 400;
+  font-size: 13.6105px !important;
+  line-height: 17px;
+  letter-spacing: -0.308505px;
+  color: #DCDCDC !important;
+  background: #FFFFFF;
+  border-radius: 3.7807px;
+}
+.house-addr-input::placeholder {
+  color: #DCDCDC !important;
+}
+.house-addr-input:focus {
+  box-shadow: none !important;
+}
+.form-house-address {
+  width: 431px;
+}
+.btn-prev {
+  width: 170px;
+  height: 40px;
+}
+.btn-next {
+  width: 170px;
+  height: 40px;
+}
+.next-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.41px;
+  color: #FFFFFF;
+}
+.prev-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.41px;
+  color: #302D2D;
+}

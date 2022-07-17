@@ -1,0 +1,93 @@
+.auth-loginpage {
+    .auth-inner {
+        height: 100vh;
+    }
+    .login-form {
+        background-color: #FFF;
+    }
+    .login-back {
+        background-color: #F9F9F9;
+    }
+    .img-auth {
+        position: relative;
+        left: calc((100vw * 0.0472 + 30px) * (-1));
+    }
+    .go-register {
+        position: absolute;
+        bottom: 68px;
+        margin-left: 28px;
+    }
+    .auth-login-col {
+        width: 341px;
+    }
+    .sigin-text {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 26px;
+    }
+    .height47 {
+        font-weight: 600;
+        font-size: 12px !important;
+        height: 47px;
+        line-height: 16px;
+        font-family: 'Open Sans';
+    }
+    input.height47 {
+        border: 1px solid #DCDCDC;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+    }
+    .font12 {
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Open Sans';
+    }
+    .letter3 {
+        letter-spacing: 0.3px;
+    }
+    .letter1 {
+        letter-spacing: 0.1px;
+    }
+    .letter13 {
+        letter-spacing: 1.3px;
+    }
+    #remember-me[type=checkbox] {
+        border-radius: none !important;
+    }
+    #remember-me {
+        border: 1px solid rgba(48, 45, 45, 0.8);
+        border-radius: 1px;
+    }
+    #remember-me:checked {
+        border: 1px solid rgba(48, 45, 45, 0.8);
+        border-radius: 1px;
+        background-color: #FFF;
+    }
+    #remember-me:checked[type=checkbox] {
+        background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27%3e%3cpath fill=%27none%27 stroke=%27%23808080%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M6 10l3 3l6-6%27/%3e%3c/svg%3e") !important;
+    }
+    @media screen and (min-width: 1500px) {
+        .img-auth {
+            position: relative;
+            left: calc((100vw * 0.08 + 30px) * (-1));
+        }
+    }
+    @media screen and (min-width: 1800px) {
+        .img-auth {
+            position: relative;
+            left: calc((100vw * 0.09 + 50px) * (-1));
+        }
+    }
+    @media screen and (min-width: 2000px) {
+        .img-auth {
+            position: relative;
+            left: calc((100vw * 0.1 + 50px) * (-1));
+        }
+    }
+    @media screen and (min-width: 2200px) {
+        .img-auth {
+            position: relative;
+            left: calc((100vw * 0.12 + 70px) * (-1));
+        }
+    }
+}

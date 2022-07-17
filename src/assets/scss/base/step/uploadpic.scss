@@ -1,0 +1,52 @@
+.btn-add-upload-img {
+    width: 117px;
+    height: 80px;
+    background: rgba(224, 224, 224, 0.15);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.image-add-icon {
+    padding: 29px 48px;
+}
+.form-uploadpic .upload__image-wrapper {
+    display: flex;
+    max-width: 800px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.form-uploadpic .upload__image-wrapper .image-item img{
+    width: 117px;
+    height: 80px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.form-uploadpic .upload__image-wrapper .image-item .image-item__btn-wrapper button {
+    position: relative;
+    bottom: 75px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.25rem;
+    float: right;
+    background: rgba(0,0,0,.1);
+    color: #fff;
+    transition: all .2s ease;
+}
+.form-uploadpic .upload__image-wrapper .image-item .image-item__btn-wrapper button:hover {
+    opacity: 1;
+    transform: translate(0);
+    transition: all .2s ease;
+    border-radius: 50%;
+    background: #E15152;
+}
+.form-uploadpic {
+    width: 560px;
+}
+

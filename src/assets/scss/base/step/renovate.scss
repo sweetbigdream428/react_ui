@@ -1,0 +1,63 @@
+// renovateAddr Page Style Begin
+#renovate form {
+    display: flex;
+    justify-content: center;
+  }
+  #renovateAddr {
+    margin-top: 135px;
+    max-width: 1230px;
+  }
+  .renovate-col {
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .renovate-col .renovate-form-icons:last-child {
+    margin-top: 16px;
+  }
+  
+  .renovate-form-icon-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.41px;
+    color: #212525;
+  }
+  .renovate-form-checkbox {
+    width: 28px !important;
+    height: 28px !important;
+    border: 2px solid #B1B1B1 !important;
+    border-radius: 6px !important;
+  }
+  
+  .renovate-form-checkbox:checked {
+    background-color: rgba(120, 87, 52, 0.8) !important;
+  }
+  
+  .renovate-form-icon-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.41px;
+    color: #969999;
+  }
+  
+  .renovate-form-icon-price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.41px;
+    color: #212525;
+  }
