@@ -1,9 +1,11 @@
 #squarefootAddr {
     margin-top: 55px;
 }
+
 .form-squarefoot {
     max-width: 415px;
 }
+
 .form-squarefoot .squarefoot-form {
     display: flex;
     justify-content: space-between;
@@ -12,10 +14,12 @@
     border-radius: 8px;
     height: 80px;
 }
+
 .form-squarefoot .squarefoot-form .squarefoot-form-icons {
     display: flex;
     align-items: center;
 }
+
 .form-squarefoot .squarefoot-form .squarefoot-form-icons .squarefoot-form-icon-name {
     font-family: 'Roboto';
     font-style: normal;
@@ -27,10 +31,12 @@
     letter-spacing: 0.41px;
     color: #212525;
 }
+
 .form-squarefoot .squarefoot-form .squarefoot-form-val {
     max-width: 196px;
     display: flex;
 }
+
 .form-squarefoot .squarefoot-form .squarefoot-form-val input {
     border: 1px solid #D9D9D9;
     border-radius: 8px;
@@ -46,9 +52,11 @@
     color: #DCDCDC;
     min-width: 60px;
 }
+
 .form-squarefoot .squarefoot-form .squarefoot-form-val input:focus {
     box-shadow: none;
 }
+
 .form-squarefoot .squarefoot-form .squarefoot-form-val .squarefoot-form-val-text {
     font-family: 'Roboto';
     font-style: normal;
@@ -61,6 +69,7 @@
     color: #212525;
     white-space: nowrap;
 }
+
 .form-squarefoot .squarefoot-form .squarefoot-form-val .squarefoot-form-val-text-point {
     font-family: 'Roboto';
     font-style: normal;
@@ -71,4 +80,82 @@
     align-items: flex-end;
     letter-spacing: 0.41px;
     color: #DCDCDC;
+}
+
+// Spiner
+.spanner {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    background: rgba(15, 14, 14, 0.8);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    color: #FFF;
+    transform: translateY(-50%);
+    z-index: 1000;
+    visibility: hidden;
+}
+.spanner > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.41px;
+    color: #FFFFFF;
+}
+.spanner > p > span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.41px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    display: block;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+
+@keyframes anim-rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+.loader #loading-spinner {
+    animation: anim-rotate 2s infinite linear;
+}
+
+.show {
+    visibility: visible;
+}
+
+.spanner,
+.overlay {
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.spanner.show,
+.overlay.show {
+    opacity: 1
 }

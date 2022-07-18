@@ -1,18 +1,17 @@
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { useForm } from 'react-hook-form'
-import { Form, Label, Input, FormGroup, Container, Button, Row } from 'reactstrap'
-import arrowupIcon from '../../../assets/icons/arrowdown.svg'
-import arrowdownIcon from '../../../assets/icons/arrowup.svg'
-import completecheck from '../../../assets/icons/completecheck.svg'
+import { Form, Input, FormGroup, Container, Button, Row } from 'reactstrap'
 import kichensIcon from '../../../assets/icons/kichens.svg'
 import bedroomsIcon from '../../../assets/icons/bedrooms.svg'
 import bathroomsIcon from '../../../assets/icons/bathrooms.svg'
 import diningroomsIcon from '../../../assets/icons/diningrooms.svg'
 import livingroomsIcon from '../../../assets/icons/livingrooms.svg'
 import exteriorIcon from '../../../assets/icons/exterior.svg'
+import spinerImg from '../../../assets/images/loading.png'
 
 const Square = ({ stepper, type }) => {
 
+  const [showSpiner, setshowSpiner] = useState(false)
   const onSubmit = () => {
     // trigger()
     // if (isObjEmpty(errors)) {
@@ -20,6 +19,26 @@ const Square = ({ stepper, type }) => {
     // }
   }
   const { handleSubmit } = useForm()
+  const Spiner = () => (
+    <div id='spiner'>
+      <div className="overlay show">
+      </div>
+      <div className="spanner show">
+        <div className="loader">
+          <img id='loading-spinner' className='mb-4' src={spinerImg} alt='loading' />
+        </div>
+        <p>
+          Housetable's AI-based condition analysis
+          <span>This may take a couple of minutes</span>
+        </p>
+      </div>
+    </div>
+  )
+
+  function onClickSpiner() {
+    setshowSpiner(true)
+  }
+  console.log('showSpiner', showSpiner)
 
   return (
     <Fragment>
@@ -243,12 +262,13 @@ const Square = ({ stepper, type }) => {
             <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
               <span className='align-middle d-sm-inline-block d-none'>Back</span>
             </Button>
-            <Button type='submit' color='primary' className='btn-next'>
+            <Button type='button' color='primary' className='btn-next' onClick={() => onClickSpiner()}>
               <span className='align-middle d-sm-inline-block d-none'>Next</span>
             </Button>
           </div>
         </Form>
       </Container>
+      {showSpiner ? <Spiner /> : null}
     </Fragment>
   )
 }
