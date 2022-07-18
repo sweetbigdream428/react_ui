@@ -1,0 +1,74 @@
+#squarefootAddr {
+    margin-top: 55px;
+}
+.form-squarefoot {
+    max-width: 415px;
+}
+.form-squarefoot .squarefoot-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    height: 80px;
+}
+.form-squarefoot .squarefoot-form .squarefoot-form-icons {
+    display: flex;
+    align-items: center;
+}
+.form-squarefoot .squarefoot-form .squarefoot-form-icons .squarefoot-form-icon-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.41px;
+    color: #212525;
+}
+.form-squarefoot .squarefoot-form .squarefoot-form-val {
+    max-width: 196px;
+    display: flex;
+}
+.form-squarefoot .squarefoot-form .squarefoot-form-val input {
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    height: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.41px;
+    color: #DCDCDC;
+    min-width: 60px;
+}
+.form-squarefoot .squarefoot-form .squarefoot-form-val input:focus {
+    box-shadow: none;
+}
+.form-squarefoot .squarefoot-form .squarefoot-form-val .squarefoot-form-val-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.41px;
+    color: #212525;
+    white-space: nowrap;
+}
+.form-squarefoot .squarefoot-form .squarefoot-form-val .squarefoot-form-val-text-point {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.41px;
+    color: #DCDCDC;
+}

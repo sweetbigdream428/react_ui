@@ -32,6 +32,12 @@ const Address = () => {
       content: <Uploadpic stepper={stepper} type='wizard-horizontal' />
     },
     {
+      id: 'squarefoot',
+      title: 'Square footage',
+      subtitle: '',
+      content: <Square stepper={stepper} type='wizard-horizontal' />
+    },
+    {
       id: 'renovate',
       title: 'What renovate',
       subtitle: '',
@@ -42,12 +48,6 @@ const Address = () => {
       title: 'Recommendations',
       subtitle: '',
       content: <Recommendations stepper={stepper} type='wizard-horizontal' />
-    },
-    {
-      id: 'square',
-      title: 'Square footage',
-      subtitle: '',
-      content: <Square stepper={stepper} type='wizard-horizontal' />
     },
     {
       id: 'roofchanged',
