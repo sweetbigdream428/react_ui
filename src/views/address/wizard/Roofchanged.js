@@ -30,7 +30,7 @@ const Roofchanged = ({ stepper, type }) => {
           </FormGroup>
           <div className='d-flex justify-content-between paganation-position'>
             <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
-              <span className='align-middle d-sm-inline-block d-none'>Previous</span>
+              <span className='align-middle d-sm-inline-block d-none'>Back</span>
             </Button>
             <Button type='submit' color='primary' className='btn-next'>
               <span className='align-middle d-sm-inline-block d-none'>Next</span>
