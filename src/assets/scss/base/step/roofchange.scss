@@ -1,0 +1,21 @@
+#roofchangeAddr {
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#roofchangeAddr form input {
+    border: 1px solid #DCDCDC !important;
+    border-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.408px;
+    color: #DCDCDC !important;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+}
+#roofchangeAddr form input:focus {
+    box-shadow: none;
+}

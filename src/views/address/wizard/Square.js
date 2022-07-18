@@ -37,8 +37,11 @@ const Square = ({ stepper, type }) => {
 
   function onClickSpiner() {
     setshowSpiner(true)
+    setTimeout(() => {
+      stepper.next()
+      setshowSpiner(false)
+    }, 3000)
   }
-  console.log('showSpiner', showSpiner)
 
   return (
     <Fragment>

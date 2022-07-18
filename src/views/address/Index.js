@@ -38,6 +38,12 @@ const Address = () => {
       content: <Square stepper={stepper} type='wizard-horizontal' />
     },
     {
+      id: 'roofchanged',
+      title: 'When the roof was changed',
+      subtitle: '',
+      content: <Roofchanged stepper={stepper} type='wizard-horizontal' />
+    },
+    {
       id: 'renovate',
       title: 'What renovate',
       subtitle: '',
@@ -48,12 +54,6 @@ const Address = () => {
       title: 'Recommendations',
       subtitle: '',
       content: <Recommendations stepper={stepper} type='wizard-horizontal' />
-    },
-    {
-      id: 'roofchanged',
-      title: 'When the roof was changed',
-      subtitle: '',
-      content: <Roofchanged stepper={stepper} type='wizard-horizontal' />
     }]
   return (
     <div className='horizontal-wizard'>

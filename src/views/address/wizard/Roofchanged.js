@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { useForm } from 'react-hook-form'
-import { Form, Label, Input, FormGroup, Col, Button } from 'reactstrap'
+import { Form, Input, FormGroup, Col, Button, Container } from 'reactstrap'
 
 const Roofchanged = ({ stepper, type }) => {
 
@@ -15,31 +15,30 @@ const Roofchanged = ({ stepper, type }) => {
   return (
     <Fragment>
       <div className='content-header'>
-        <h5 className='mb-0'>infomation</h5>
-        {/* <small className='text-muted'>Enter Your Account Details.</small> */}
       </div>
-      <Form onSubmit={handleSubmit(onSubmit)}>
-        <FormGroup tag={Col} md='6'>
-          <Label className='form-label' for={`email-${type}`}>
-            infomation
-          </Label>
-          <Input
-            type='email'
-            name={`email-${type}`}
-            id={`email-${type}`}
-            placeholder='1 Main Rd, California'
-            required
-          />
-        </FormGroup>
-        <div className='d-flex justify-content-between paganation-position'>
-          <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
-            <span className='align-middle d-sm-inline-block d-none'>Previous</span>
-          </Button>
-          <Button type='submit' color='primary' className='btn-next'>
-            <span className='align-middle d-sm-inline-block d-none'>Next</span>
-          </Button>
-        </div>
-      </Form>
+      <Container id='roofchangeAddr'>
+        <h3 className='info-content-title text-center mb-5'>When was the last time your roof was replaced?</h3>
+        <Form onSubmit={handleSubmit(onSubmit)}>
+          <FormGroup tag={Col} md='6'>
+            <Input
+              type='text'
+              name={`year-${type}`}
+              id={`year-${type}`}
+              placeholder='YYYY'
+              required
+            />
+          </FormGroup>
+          <div className='d-flex justify-content-between paganation-position'>
+            <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
+              <span className='align-middle d-sm-inline-block d-none'>Previous</span>
+            </Button>
+            <Button type='submit' color='primary' className='btn-next'>
+              <span className='align-middle d-sm-inline-block d-none'>Next</span>
+            </Button>
+          </div>
+        </Form>
+      </Container>
+      
     </Fragment>
   )
 }

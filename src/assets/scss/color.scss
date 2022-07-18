@@ -24,6 +24,9 @@ body {
     background-color: rgba(120, 87, 52, 1);
     border: solid 1px rgba(120, 87, 52, 1);
 }
+.btn-primary:active:focus {
+    box-shadow: none;
+}
 .btn-white {
     background-color: #FFF;
     border: 1px solid #DFDFDF;
