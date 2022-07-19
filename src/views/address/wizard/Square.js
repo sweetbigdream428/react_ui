@@ -66,11 +66,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>
@@ -89,11 +89,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>
@@ -112,11 +112,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>
@@ -135,11 +135,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>
@@ -158,11 +158,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>
@@ -181,11 +181,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>
@@ -204,11 +204,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>
@@ -227,11 +227,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>
@@ -250,11 +250,11 @@ const Square = ({ stepper, type }) => {
                     </div>
                   </div>
                   <div className='squarefoot-form-val'>
-                    <Input className='' placeholder='9.5' />
+                    <Input className='' placeholder='9.5' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;x&nbsp;</span>
-                    <Input className='' placeholder='15.7' />
+                    <Input className='' placeholder='15.7' readOnly />
                     <span className='squarefoot-form-val-text-point'>,&nbsp;</span>
-                    <Input className='' placeholder='141' />
+                    <Input className='' placeholder='141' readOnly />
                     <span className='squarefoot-form-val-text'>&nbsp;sq. ft</span>
                   </div>
                 </FormGroup>

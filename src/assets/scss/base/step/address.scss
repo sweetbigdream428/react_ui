@@ -23,6 +23,10 @@
   padding-right: 129px;
   background-color: #FFFFFF;
 }
+.row .paganation-position {
+  padding-left: 129px;
+  padding-right: 129px;
+}
 
 
 .paganation-position button {
@@ -103,6 +107,10 @@
 
 @media screen and (max-width: 768px) {
   .paganation-position {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .row .paganation-position {
     padding-left: 20px;
     padding-right: 20px;
   }
