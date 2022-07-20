@@ -19,3 +19,14 @@
 #roofchangeAddr form input:focus {
     box-shadow: none;
 }
+
+.roof-year-input::-webkit-outer-spin-button,
+.roof-year-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.roof-year-input[type=number] {
+    -moz-appearance: textfield;
+}

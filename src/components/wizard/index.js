@@ -59,12 +59,12 @@ const Wizard = forwardRef((props, ref) => {
             ) : (
               ''
             )}
-            {index !== 0 && index !== steps.length && index < 6 ? <div className='line'>{separator}</div> : null}
+            {index !== 0 && index !== steps.length && index < 7 ? <div className='line'>{separator}</div> : null}
             <div
               className={classnames('step', {
                 crossed: activeIndex > index,
                 active: index === activeIndex,
-                displayNone: index > 5
+                displayNone: index > 6
               })}
               data-target={`#${step.id}`}
             >

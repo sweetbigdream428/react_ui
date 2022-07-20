@@ -3,7 +3,7 @@ body {
 }
 .bg-primary {
     background-color: rgba(120, 87, 52, 0.8) !important;
-    background: rgba(120, 87, 52, 0.8);
+    background: rgba(120, 87, 52, 0.8) !important;
 }
 .text-primary {
     color: rgba(120, 87, 52, 0.8) !important;
@@ -13,8 +13,8 @@ body {
     color: #302D2D;
 }
 .btn-primary {
-    background-color: rgba(120, 87, 52, 0.8);
-    border: solid 1px rgba(120, 87, 52, 0.8);
+    background-color: rgba(120, 87, 52, 0.8) !important;
+    border: solid 1px rgba(120, 87, 52, 0.8) !important;
 }
 .btn-primary:hover {
     background-color: rgba(120, 87, 52, 1);

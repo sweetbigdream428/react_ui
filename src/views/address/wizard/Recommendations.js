@@ -9,7 +9,7 @@ const Renovate = ({ stepper, type }) => {
     const onSubmit = () => {
         // trigger()
         // if (isObjEmpty(errors)) {
-        stepper.next()
+        // stepper.next()
         // }
     }
     const { handleSubmit } = useForm()
@@ -31,13 +31,12 @@ const Renovate = ({ stepper, type }) => {
     
     )
     function onClickRecommendSpiner() {
-        setrecommendShowSpiner(true)
+        // setrecommendShowSpiner(true)
         setTimeout(() => {
             stepper.next()
-            setrecommendShowSpiner(false)
-        }, 10000)
+            // setrecommendShowSpiner(false)
+        }, 100)
     }
-
     return (
         <Fragment>
             <div className='content-header'>

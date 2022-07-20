@@ -1,0 +1,45 @@
+#confirmrecom form {
+    display: flex;
+    justify-content: center;
+}
+#confirmrecom {
+    background: #F5F5F5;
+}
+#confirmrecomAddr {
+    padding-top: 38px;
+    padding-bottom: 45px;
+}
+.info-content-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #302D2D;
+}
+.select-package {
+    background: #FFFFFF;
+    border: 1px solid #785734;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.41px;
+    color: #785734;
+    height: 40px;
+    cursor: pointer;
+}
+.squarefoot-form-input-num::-webkit-outer-spin-button,
+.squarefoot-form-input-num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.squarefoot-form-input-num[type=number] {
+    -moz-appearance: textfield;
+}

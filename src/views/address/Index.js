@@ -7,6 +7,8 @@ import Recommendations from './wizard/Recommendations'
 import Square from './wizard/Square'
 import Roofchanged from './wizard/Roofchanged'
 import Renovate from './wizard/Renovate'
+import Confirmrecom from './wizard/Confirmrecom'
+import ConditionPage from './wizard/Conditionpage'
 
 const Address = () => {
   const [stepper, setStepper] = useState(null)
@@ -44,6 +46,12 @@ const Address = () => {
       content: <Roofchanged stepper={stepper} type='wizard-horizontal' />
     },
     {
+      id: 'conditionpage',
+      title: 'Condition',
+      subtitle: '',
+      content: <ConditionPage stepper={stepper} type='wizard-horizontal' />
+    },
+    {
       id: 'renovate',
       title: 'What renovate',
       subtitle: '',
@@ -54,6 +62,12 @@ const Address = () => {
       title: 'Recommendations',
       subtitle: '',
       content: <Recommendations stepper={stepper} type='wizard-horizontal' />
+    },
+    {
+      id: 'confirmrecom',
+      title: 'Confirmrecom',
+      subtitle: '',
+      content: <Confirmrecom stepper={stepper} type='wizard-horizontal' />
     }]
   return (
     <div className='horizontal-wizard'>
