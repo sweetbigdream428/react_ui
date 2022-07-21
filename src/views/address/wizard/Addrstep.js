@@ -32,13 +32,15 @@ const Addrstep = ({ stepper, type }) => {
               required
             />
           </FormGroup>
-          <div className='d-flex justify-content-between paganation-position'>
-            <Button className='btn-prev btn-white' outline disabled>
-              <span className='prev-text'>Back</span>
-            </Button>
-            <Button type='submit' color='primary' className='btn-next btn-primary'>
-              <span className='next-text'>Next</span>
-            </Button>
+          <div className='paganation-position'>
+            <div className='buttons'>
+              <Button className='btn-prev btn-white' outline disabled>
+                <span className='prev-text'>Back</span>
+              </Button>
+              <Button type='submit' color='primary' className='btn-next btn-primary'>
+                <span className='next-text'>Next</span>
+              </Button>
+            </div>
           </div>
         </Form>
       </Container>

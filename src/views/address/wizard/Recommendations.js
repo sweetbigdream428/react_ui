@@ -504,13 +504,15 @@ const Renovate = ({ stepper, type }) => {
                         </div>
                     </Col>
 
-                    <div className='d-flex justify-content-between paganation-position'>
-                        <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
-                            <span className='align-middle d-sm-inline-block d-none'>Back</span>
-                        </Button>
-                        <Button type='submit' color='primary' className='btn-next' onClick={() => onClickRecommendSpiner()}>
-                            <span className='align-middle d-sm-inline-block d-none'>Confirm</span>
-                        </Button>
+                    <div className='paganation-position'>
+                        <div className='buttons'>
+                            <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
+                                <span className='align-middle d-sm-inline-block d-none'>Back</span>
+                            </Button>
+                            <Button type='submit' color='primary' className='btn-next' onClick={() => onClickRecommendSpiner()}>
+                                <span className='align-middle d-sm-inline-block d-none'>Confirm</span>
+                            </Button>
+                        </div>
                     </div>
                 </Container>
             </Form>

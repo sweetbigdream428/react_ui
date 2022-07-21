@@ -33,13 +33,15 @@ const Roofchanged = ({ stepper, type }) => {
               required
             />
           </FormGroup>
-          <div className='d-flex justify-content-between paganation-position'>
-            <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
-              <span className='align-middle d-sm-inline-block d-none'>Back</span>
-            </Button>
-            <Button type='submit' color='primary' className='btn-next' disabled={roofYear > 2022 || roofYear <1990 ? true : false}>
-              <span className='align-middle d-sm-inline-block d-none'>Next</span>
-            </Button>
+          <div className='paganation-position'>
+            <div className='buttons'>
+              <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
+                <span className='align-middle d-sm-inline-block d-none'>Back</span>
+              </Button>
+              <Button type='submit' color='primary' className='btn-next' disabled={roofYear > 2022 || roofYear <1990 ? true : false}>
+                <span className='align-middle d-sm-inline-block d-none'>Next</span>
+              </Button>
+            </div>
           </div>
         </Form>
       </Container>

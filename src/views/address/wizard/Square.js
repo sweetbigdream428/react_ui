@@ -261,13 +261,15 @@ const Square = ({ stepper, type }) => {
               </FormGroup>
             </Row>
           </div>
-          <div className='d-flex justify-content-between paganation-position'>
-            <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
-              <span className='align-middle d-sm-inline-block d-none'>Back</span>
-            </Button>
-            <Button type='button' color='primary' className='btn-next' onClick={() => onClickSpiner()}>
-              <span className='align-middle d-sm-inline-block d-none'>Next</span>
-            </Button>
+          <div className='paganation-position'>
+            <div className='buttons'>
+              <Button color='secondary' className='btn-prev' outline onClick={() => stepper.previous()}>
+                <span className='align-middle d-sm-inline-block d-none'>Back</span>
+              </Button>
+              <Button type='button' color='primary' className='btn-next' onClick={() => onClickSpiner()}>
+                <span className='align-middle d-sm-inline-block d-none'>Next</span>
+              </Button>
+            </div>
           </div>
         </Form>
       </Container>
