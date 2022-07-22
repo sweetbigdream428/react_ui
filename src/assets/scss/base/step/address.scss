@@ -20,19 +20,19 @@
   width: 100%;
   margin-top: 25px;
   background-color: #FFFFFF;
+
+  button {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 }
 .paganation-position > .buttons {
   max-width: 1180px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-}
-
-.paganation-position button {
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
 
 #addressAddr {

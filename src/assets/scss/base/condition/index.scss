@@ -1,0 +1,328 @@
+#conditionMainPage {
+    background-color: #F5F5F5;
+    
+    .condition-logo {
+        padding-left: 27px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .condition-menu {
+        width: 226px;
+        height: 100vh;
+        position: fixed;
+        background: #FFFFFF;
+        border-radius: 0px 0px 5px 5px;
+    
+        .menu {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 16px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #B9B5B5;
+            padding: 12px 10px;
+            margin-top: 16px;
+            margin-left: 27px;
+        }
+        .menu:hover {
+            background: linear-gradient(90deg, rgba(120, 87, 52, 0.07) 0%, rgba(120, 87, 52, 0) 100%);
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #383838;
+        }
+
+        .menu.first-menu {
+            margin-top: 60px !important;
+        }
+    }
+
+    .condition-main {
+        margin-left: 270px;
+        max-width: 1100px;
+        .main-menu {
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 28px;
+
+            i {
+                margin-right: 30px;
+            }
+        }
+
+        .btn-main-back {
+            span {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 16px;
+                text-transform: capitalize;
+                color: #302D2D;
+            }
+        }
+        .btn-main-next {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+
+            span {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 26px;
+                line-height: 35px;
+                text-transform: capitalize;
+                color: #302D2D;
+            }
+            button {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 18px;
+                letter-spacing: 0.3px;
+                color: #FFFFFF;
+                padding: 10px 38px;
+            }
+        }
+
+        .condition-mainpage {
+            margin-top: 45px;
+            
+            .main-img {
+                height: 375px;
+                max-width: 750px;
+                display: flex;
+                align-items: center;
+                background-image: url('../../../images/condition/main/Rectangle\ 98.png');
+                .arrow-icons {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-left: 35px;
+                    padding-right: 35px;
+                    .icons-arrow-left, .icons-arrow-right {
+                        background: rgba($color: #FFFFFF, $alpha: 0.7);
+                        border-radius: 50%;
+                        width: 37px;
+                        height: 37px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+                }
+                
+            }
+
+            .left-condition-mainpage {
+                max-width: 750px;
+                .left-condition-mainpage-footer {
+                    margin-top: 17px;
+                    cursor: pointer;
+                    display: flex;
+                    overflow-x: auto;
+                    img {
+                        margin-left: 10px;
+                    }
+                    img:first-child {
+                        margin-left: 0px;
+                    }
+                    img:last-child {
+                        margin-left: 20px;
+                    }
+                }
+            }
+            
+            .right-condition-mainpage {
+                max-width: 330px;
+                padding: 38px 32px;
+                background: #FFFFFF;
+                border-radius: 5px;
+                margin-left: 20px;
+
+                .title {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 16px;
+                    letter-spacing: 0.5px;
+                    text-transform: uppercase;
+                    color: #8A8080;
+                }
+                .house-product {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .product-icons {
+                        display: flex;
+                        align-items: center;
+
+                        .icon-back {
+                            background: rgba(155, 90, 40, 0.1);
+                            border-radius: 2px;
+                            width: 36px;
+                            height: 36px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        span.active {
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 13px;
+                            line-height: 18px;
+                            letter-spacing: 0.3px;
+                            color: #302D2D;
+                            margin-left: 16px;
+                        }
+                        span {
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 18px;
+                            letter-spacing: 0.3px;
+                            color: #302D2D;
+                            margin-left: 16px;
+                        }
+                    }
+
+                    .product-notify {
+                        .notify-icon.one {
+                            width: 36px;
+                            height: 36px;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 16px;
+                            letter-spacing: 0.3px;
+                        }
+                        .notify-icon {
+                            width: 24px;
+                            height: 24px;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 18px;
+                            letter-spacing: 0.3px;
+                        }
+                    }
+                    
+                }
+                .house-product-solid {
+                    width: 100%;
+                    height: 1px;
+                    background: rgba(216, 216, 216, 0.4);
+                    transform: matrix(1, 0, 0, -1, 0, 0);
+                }
+            }
+        }
+    }
+
+    .condition-footer {
+        margin-left: 270px;
+        display: flex;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 35px;
+        margin-bottom: 21px;
+        max-width: 1170px;
+
+        .footer-img:first-child {
+            margin-left: 0px;
+        }
+
+        .footer-img {
+            width: 226px;
+            background: rgba(237, 232, 228, 0.8);
+            border-radius: 5px;
+            padding: 9px 12px;
+            margin-left: 20px;
+
+            img {
+                border-radius: 5px;
+                margin-top: 9px;
+            }
+            
+            .footer-icons {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 10px;
+    
+                .star-icon {
+                    display: flex;
+                    align-items: center;
+    
+                    .footer-star-back {
+                        width: 20px;
+                        height: 20px;
+                        background: rgba(155, 90, 40, 0.1);
+                        border-radius: 2px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            margin: 0px;
+                        }
+                    }
+                    
+                    span {
+                        margin-left: 10px;
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 10px;
+                        line-height: 14px;
+                        letter-spacing: 0.3px;
+                        color: #302D2D;
+                    }
+                }
+
+                .condition-footer-icon {
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 9px;
+                    line-height: 12px;
+                    letter-spacing: 0.3px;
+                }
+            }
+
+        }
+        .title {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.3px;
+            color: #302D2D;
+        }
+    }
+
+}

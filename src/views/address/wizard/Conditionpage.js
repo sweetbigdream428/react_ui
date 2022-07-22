@@ -1,7 +1,6 @@
 import { Fragment } from 'react'
 import { useForm } from 'react-hook-form'
 import { Form, Container, Button } from 'reactstrap'
-// import SwiperGallery from './Gallery'
 import kichensIcon from '../../../assets/icons/kichens.svg'
 import bedroomsIcon from '../../../assets/icons/bedrooms.svg'
 import bathroomsIcon from '../../../assets/icons/bathrooms.svg'

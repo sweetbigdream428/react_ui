@@ -1,9 +1,10 @@
-#confirmrecom form {
-    display: flex;
-    justify-content: center;
-}
 #confirmrecom {
     background: #F5F5F5;
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
 }
 #confirmrecomAddr {
     padding-top: 38px;
